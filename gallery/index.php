@@ -20,13 +20,16 @@ Author Lukas Praks
 </head>
 
 <body>
-<h1>
-        Gallery in php
-</h1>
-<?php
-require_once('classes/gallery.php');
-$gallery = new
+        <h1>
+                Gallery in php
+        </h1>
+        <?php
+        require_once ('classes/gallery.php');
+        $gallery = new Gallery('pictures', 5);
+        $gallery->read();
+        $gallery->printGallery();
 
+        ?>
 
 </body>
 
