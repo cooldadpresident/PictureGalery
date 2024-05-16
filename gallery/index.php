@@ -17,7 +17,17 @@ Author Lukas Praks
         <script src="js/jquery-ui-1.8.18.custom.min.js"></script>
         <script src="js/jquery.smooth-scroll.min.js"></script>
         <script src="js/lightbox.js"></script>
-
 </head>
+
+<body>
+<h1>
+        Gallery in php
+</h1>
+<?php
+require_once('classes/gallery.php');
+$gallery = new
+
+
+</body>
 
 </html>
